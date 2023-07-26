@@ -9,6 +9,7 @@
     <!-- tailwind css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d3e6fec6a8.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -206,8 +207,54 @@
     <!-------------------------- header section ends -------------------------->
     <!-- ------------------------------------------------------------------- -->
     <!-------------------------- main section starts -------------------------->
-    <main>
-
+    <main class="max-w-screen-xl px-5 md:px-9 lg:px-12 mx-auto  mb-6 lg:mb-64">
+        <section class="flex justify-between gap-96 items-center">
+            <div>
+                <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+                <p class=" text-base font-medium mt-5">Contrary to popular belief, is not simply random text. It has
+                    roots in a piece of classical Latin
+                    literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex items-center">
+                        <div class="flex flex-col">
+                            <span class="countdown  text-5xl font-extrabold">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                    </div>
+                    <span class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="countdown  text-5xl font-extrabold ">
+                            <span style="--value:10;"></span>
+                        </span>
+                        hours
+                    </div>
+                    <span class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="countdown  text-5xl font-extrabold ">
+                            <span style="--value:24;"></span>
+                        </span>
+                        min
+                    </div>
+                    <span class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="countdown  text-5xl font-extrabold">
+                            <span style="--value:11;"></span>
+                        </span>
+                        sec
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-------------------------- main section starts -------------------------->
 </body>
