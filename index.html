@@ -37,7 +37,7 @@
 </head>
 
 <body class="font-lato">
-    <!-------------------------- header section starts -------------------------->
+    <!-------------------- header section starts -------------------->
     <header class="max-w-screen-xl px-5 md:px-9 lg:px-12 mx-auto  mb-6 lg:mb-64">
         <!-- navbar part starts -->
         <nav
@@ -205,8 +205,8 @@
             <!------------------------- carousel ends ------------------------>
         </section>
     </header>
-    <!-------------------------- header section ends -------------------------->
-    <!-- ------------------------------------------------------------------- -->
+    <!-------------------- header section ends -------------------->
+    <!----------------------------------------------------------------------->
     <!-------------------------- main section starts -------------------------->
     <main class="max-w-screen-xl px-5 md:px-9 lg:px-12 mx-auto  mb-6 lg:mb-64">
         <!-- countdown section start-->
@@ -259,20 +259,220 @@
         </section>
         <!-- countdown section ends-->
         <!-- modal section starts-->
-        <section>
-
+        <section class="my-20 px-0 lg:px-12">
+            <div class="grid gap-10 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+                <!-- card1 -->
+                <div class="card bg-base-100 rounded-lg border border-grey-300 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">340<i class="fa-solid fa-bangladeshi-taka-sign"
+                                style="color: #121212;"></i></h2>
+                        <p>Apples</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" checked />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                        </div>
+                        <!-- Modal 1-->
+                        <button class="btn text-[#F85559] normal-case border-none"
+                            onclick="modal_1.showModal()">Details</button>
+                        <dialog id="modal_1" class="modal modal-bottom sm:modal-middle">
+                            <form method="dialog">
+                                <div class="card w-96 bg-base-100 shadow-xl">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                                    </figure>
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title">Apples</h2>
+                                        <p>Professional employees are there for you to pick the most amazing and fresh
+                                            fruits.</p>
+                                        <div class="rating justify-center">
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]"
+                                                checked />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                        </div>
+                                        <div class="modal-action card-actions">
+                                            <button
+                                                class="btn normal-case text-[#F85559] border-[#F85559]">Close</button>
+                                            <button class="btn normal-case bg-[#F85559] text-white"> Buy Now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 rounded-lg border border-grey-300 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">380<i class="fa-solid fa-bangladeshi-taka-sign"
+                                style="color: #121212;"></i></h2>
+                        <p>Orange</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" checked />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                        </div>
+                        <!-- Modal 2-->
+                        <button class="btn text-[#F85559] normal-case border-none"
+                            onclick="modal_2.showModal()">Details</button>
+                        <dialog id="modal_2" class="modal modal-bottom sm:modal-middle">
+                            <form method="dialog">
+                                <div class="card w-96 bg-base-100 shadow-xl">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                                    </figure>
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title">Orange</h2>
+                                        <p>Professional employees are there for you to pick the most amazing and fresh
+                                            fruits.</p>
+                                        <div class="rating justify-center">
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]"
+                                                checked />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                        </div>
+                                        <div class="modal-action card-actions">
+                                            <button
+                                                class="btn normal-case text-[#F85559] border-[#F85559]">Close</button>
+                                            <button class="btn normal-case bg-[#F85559] text-white"> Buy Now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 rounded-lg border border-grey-300 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">1285<i class="fa-solid fa-bangladeshi-taka-sign"
+                                style="color: #121212;"></i></h2>
+                        <p>Red Dragon</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" checked />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                        </div>
+                        <!-- Modal 1-->
+                        <button class="btn text-[#F85559] normal-case border-none"
+                            onclick="modal_3.showModal()">Details</button>
+                        <dialog id="modal_3" class="modal modal-bottom sm:modal-middle">
+                            <form method="dialog">
+                                <div class="card w-96 bg-base-100 shadow-xl">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                                    </figure>
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title">Red Dragon</h2>
+                                        <p>Professional employees are there for you to pick the most amazing and fresh
+                                            fruits.</p>
+                                        <div class="rating justify-center">
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]"
+                                                checked />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                        </div>
+                                        <div class="modal-action card-actions">
+                                            <button
+                                                class="btn normal-case text-[#F85559] border-[#F85559]">Close</button>
+                                            <button class="btn normal-case bg-[#F85559] text-white"> Buy Now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-base-100 rounded-lg border border-grey-300 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">120<i class="fa-solid fa-bangladeshi-taka-sign"
+                                style="color: #121212;"></i></h2>
+                        <p>Banana</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" checked />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                            <input type="radio" name="card-1" class="mask mask-star bg-[#F85559]" />
+                        </div>
+                        <!-- Modal 4-->
+                        <button class="btn text-[#F85559] normal-case border-none"
+                            onclick="modal_4.showModal()">Details</button>
+                        <dialog id="modal_4" class="modal modal-bottom sm:modal-middle">
+                            <form method="dialog">
+                                <div class="card w-96 bg-base-100 shadow-xl">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                                    </figure>
+                                    <div class="card-body items-center text-center">
+                                        <h2 class="card-title">Banana</h2>
+                                        <p>Professional employees are there for you to pick the most amazing and fresh
+                                            fruits.</p>
+                                        <div class="rating justify-center">
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]"
+                                                checked />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                            <input type="radio" name="card-5" class="mask mask-star bg-[#F85559]" />
+                                        </div>
+                                        <div class="modal-action card-actions">
+                                            <button
+                                                class="btn normal-case text-[#F85559] border-[#F85559]">Close</button>
+                                            <button class="btn normal-case bg-[#F85559] text-white"> Buy Now </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center m-10">
+                <button
+                    class="bg-[#F85559] text-white text-xl font-extrabold  hover:bg-opacity-60 border-0 py-4 px-10 rounded-lg">Shop
+                    All</button>
+            </div>
         </section>
         <!-- modal section ends-->
         <!-- our team section starts -->
-        <section class="mt-10  ">
+        <section class="mt-10">
             <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div>
                         <h1 class="mb-5 pt-8 lg:pt-0 text-5xl font-extrabold text-white">Meet with our team</h1>
-                        <p class="mb-10 text-white text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece
+                        <p class="mb-10 text-white text-base font-medium">Contrary to popular belief, is not simply
+                            random text. It has roots in a piece
                             of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-                        <div class="mt-12 grid gap-20 lg:gap-30 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 lg:px-40 ">
+                        <div
+                            class="mt-12 grid gap-20 lg:gap-30 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 lg:px-40 ">
                             <!-- team member 1 -->
                             <div class="flex flex-col">
                                 <img src="./images/member1.png" alt="member 1">
@@ -283,7 +483,7 @@
                                     <a href="#"><i class="mx-4 fa-brands fa-facebook" style="color: #f2f2f2;"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                                 </div>
-                            </div>                            
+                            </div>
                             <!-- team member 2 -->
                             <div class="flex flex-col">
                                 <img src="./images/member2.png" alt="member 1">
@@ -294,7 +494,7 @@
                                     <a href="#"><i class="mx-4 fa-brands fa-facebook" style="color: #f2f2f2;"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                                 </div>
-                            </div>                            
+                            </div>
                             <!-- team member 3 -->
                             <div class="flex flex-col">
                                 <img src="./images/member3.png" alt="member 1">
@@ -305,7 +505,7 @@
                                     <a href="#"><i class="mx-4 fa-brands fa-facebook" style="color: #f2f2f2;"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                                 </div>
-                            </div>                            
+                            </div>
                             <!-- team member 4 -->
                             <div class="flex flex-col">
                                 <img src="./images/member4.png" alt="member 1">
@@ -316,7 +516,7 @@
                                     <a href="#"><i class="mx-4 fa-brands fa-facebook" style="color: #f2f2f2;"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
